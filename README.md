@@ -1,7 +1,7 @@
 # Hackintosh-Opencore-MAG-MSI--B550M-MORTAR-WIFI
 
 
-Many Thanks to ybakiame for his files!
+Many Thanks to [ybakiame](https://github.com/ybakiame/Ryzen-Hackintosh-OpenCore-MSI-B550M-MORTAR-WIFI) for his files!
 
 微星(MSI)MAG B550M MORTAR WIFI迫击炮
 
