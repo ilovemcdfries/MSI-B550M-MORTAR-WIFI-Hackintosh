@@ -1,27 +1,31 @@
 # Hackintosh-Opencore-MAG-MSI--B550M-MORTAR-WIFI
 
+
+Many Thanks to ybakiame for his files!
+
 微星(MSI)MAG B550M MORTAR WIFI迫击炮
 
-![macOS](Pictures/macOS.png)
+![Mac Info](https://github.com/ilovemcdfries/MSI-B550M-MORTAR-WIFI-Hackintosh/assets/133241905/8236e7d5-1eb6-4369-9f23-0486501c9f90)
 
-**OpenCore : 0.9.0**
 
-**macOS ：13.2.1**
+**OpenCore : 0.9.2**
+
+**macOS ：13.4**
 
 **SMBIOS : MacPro7,1**
 
 ### Specification
 
-| **Component**    | **Model**                  |
-| ---------------- | -------------------------- |
-| CPU              | AMD R7 3700X               |
-| Motherboard      | MSI(MAG) B550M MORTAR WIFI |
-| RAM              | Kingston 16GB DDR4 2400    |
-| Audio Chipset    | ALCS1200A                  |
-| GPU              | XFX RX 590 8G              |
-| Ethernet         | RTL8125B 2.5GbE            |
-| WiFi & Bluetooth | Intel WiFi 6 AX200         |
-| OS Disk(nvme)    | kioxia RC10 1TB            |
+| **Component**    | **Model**                             |
+| ---------------- | --------------------------------------|
+| CPU              | AMD R5 Pro 4650G                      |
+| Motherboard      | MSI(MAG) B550M MORTAR WIFI            |
+| RAM              | Corsair Vengence 16gb 3200mhz.        |
+| Audio Chipset    | ALCS1200A                             |
+| GPU              | Sapphire Nitro RX 590 8G              |
+| Ethernet         | RTL8125B 2.5GbE                       |
+| WiFi & Bluetooth | Intel WiFi 6 AX200                    |
+| OS Disk(nvme)    | Intel SSDPEKNW010T8 1 tb              |
 
 ### What works
 
@@ -41,7 +45,7 @@
 
 - Wi-Fi
   
-  [itlwm](https://github.com/OpenIntelWireless/itlwm)
+  [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.2.0)
 
 - Bluetooth
   
@@ -50,6 +54,8 @@
   IntelBluetoothInjector.kext set the `MaxKernel` field to `20.99.9` (BigSur)
   
   [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM) set the `MinKernel` field to `21.00.0` (Monterey)
+  
+  Please follow the guides in [here](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/435) and [here](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/434)
 
 ### NEW AMD Kernel Patches
 
@@ -96,18 +102,17 @@ please use [OpenCore Configurator](https://mackie100projects.altervista.org/open
 
 ### Monterey
 
-Most MSI B550 motherboard need use the 7C94v12 version of the bios to start Monterey. Please test yourself according to your hardware.
+Never tried it.
 
 ### Ventura
 
-Now you can skip **Monterey** and upgrade to **Ventura**
-
-it works for me
+Still trying to see if there's a workaround some bugs, sleep crash, sometimes boot will not show wifi and bt tab  etc; reboot fixes it. 
 
 ### BIOS
 
-My bios version is `7C94v1D`
+My bios version is `7C94v1E`
 
-You can download it [here](https://www.msicn.com.cn/Motherboard/MAG-B550M-MORTAR-WIFI/support#bios)
+You can download it [here](https://www.msi.com/Motherboard/MAG-B550M-MORTAR-WIFI/support)
 
-[AMD BIOS Settings](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings)
+[AMD BIOS Settings](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings) 
+Enable 4g decoding does not work for me used npci=0x2000 in boot-args in order to boot
