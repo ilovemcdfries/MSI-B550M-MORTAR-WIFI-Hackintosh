@@ -56,6 +56,7 @@ Many Thanks to ybakiame for his files!
   [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM) set the `MinKernel` field to `21.00.0` (Monterey)
   
   Please follow the guides in [here](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/435) and [here](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/434)
+  After following the guide, reset NVRAM twice if not working, unplug power cord from psu and wait 30sec to 1 min. (Worked for me.)
 
 ### NEW AMD Kernel Patches
 
