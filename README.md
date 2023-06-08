@@ -117,4 +117,5 @@ My bios version is `7C94v1E`
 You can download it [here](https://www.msi.com/Motherboard/MAG-B550M-MORTAR-WIFI/support)
 
 [AMD BIOS Settings](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#amd-bios-settings) 
-Enable 4g decoding does not work for me used npci=0x2000 in boot-args in order to boot
+
+Enable 4g decoding does not work for me; Disable and used npci=0x2000 in boot-args in order to boot
