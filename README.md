@@ -5,7 +5,7 @@ Many Thanks to ybakiame for his files!
 
 微星(MSI)MAG B550M MORTAR WIFI迫击炮
 
-![Mac Info](https://github.com/ilovemcdfries/MSI-B550M-MORTAR-WIFI-Hackintosh/assets/133241905/8236e7d5-1eb6-4369-9f23-0486501c9f90)
+![Mac Info](https://github.com/ilovemcdfries/MSI-B550M-MORTAR-WIFI-Hackintosh/assets/133241905/8236e7d5-1eb6-4369-9f23-0486501c9f90)![this mac](https://github.com/ilovemcdfries/MSI-B550M-MORTAR-WIFI-Hackintosh/assets/133241905/8ec98f77-70e7-4ebf-8338-fac925a52ad1)
 
 
 **OpenCore : 0.9.2**
