@@ -92,12 +92,12 @@ Many Thanks to ybakiame for his files!
    > | 32 Core   | 20          |
    > | 64 Core   | 40          |
    > 
-   > for eamlple : 3700X 8 Core
+   > for example : 4560G 8 Core
    > 
    > ```
-   > B8 08 0000 0000
-   > BA 08 0000 0000
-   > BA 08 0000 0090
+   > B8 06 0000 0000
+   > BA 06 0000 0000
+   > BA 06 0000 0090
    > ```
 
 please use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) or  [OC Auxiliary](https://github.com/ic005k/QtOpenCoreConfig)  or  [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)  to generate yourself SMBIOS
