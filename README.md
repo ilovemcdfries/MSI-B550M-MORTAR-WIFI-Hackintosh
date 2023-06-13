@@ -92,7 +92,7 @@ Many Thanks to [ybakiame](https://github.com/ybakiame/Ryzen-Hackintosh-OpenCore-
    > | 32 Core   | 20          |
    > | 64 Core   | 40          |
    > 
-   > for example : 4560G 8 Core
+   > for example : 4560G 6 Core
    > 
    > ```
    > B8 06 0000 0000
